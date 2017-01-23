@@ -1,0 +1,60 @@
+body {
+	font-size: 16px;
+	background-color: #99003d;
+	font-family: Comic Sans MS, cursive, sans-serif;
+	color: #fff;
+}
+
+div a {
+	color: #fff;
+}
+
+#header-nav {
+	background-color: #ff6600;
+	border-width: 1px;
+	border-left: 0;
+	border-right: 0;
+	border-color: #fff;
+	border-radius: 0;
+}
+
+#our-menu {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-size: 1.4em;
+}
+
+#tiles {
+	background-color: #ff6600;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#tile-header {
+	font-size: 1.2em;
+}
+
+#tile-content {
+	text-align: center;
+}
+
+.navbar-brand {
+	margin-top: -15px;
+	margin-bottom: 50px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-default .navbar-toggle .icon-bar {
+	border: 1px solid #fff;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #fff;
+	font-size: 1.2em;
+}
+
+@media (max-width: 767px) {
+
+	.container {
+		max-width: 80%;
+	}
+}
